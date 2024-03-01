@@ -6,14 +6,33 @@
     <title>Document</title>
 </head>
 <body>
-    <button id="Buttons" onclick="innerText = 'Js_13' "  >Click</button>
+    <style>
+        .js-button {
+            background-color: rgb(37, 227, 37);
+            color: white; 
+            border-radius: 25px;
+            border: none;
+            width: 100px;
+            padding: 7px;
+            font-size: 22px;
+            font-weight: 600;
+            font-family: sans-serif;
+            cursor: pointer;
+            
+        }
+        .js-button-red {
+            background-color: red;
+        }
+    </style>
+    <button id="js-button">Click</button>
 
-    <button id="flipButton" onclick="flipCoin()">Бросить монету</button>
+    <!-- <button class="js-button" onclick="changeButtonText()">On</button> -->
 
-    <div id="resultDisplay"></div>
+    <input class="js-input" type="text">
 
-    
-    
-    <script src="./hw-6/script.js"></script>
+    <button onclick="submitForm()">Sumbit</button>
+
+    <div id="result"></div>
+    <script src="./hw-7/script.js"></script>
 </body>
 </html>
