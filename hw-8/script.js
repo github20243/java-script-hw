@@ -93,20 +93,20 @@
 
 // zadacha 10
 
-function addNum(arrayy, nums) {
+// function addNum(arrayy, nums) {
 
-    let resultArrays = [];
+//     let resultArrays = [];
 
-    for ( let d = 0; d < arrayy.length; d++ ) {
-        resultArrays.push(arrayy[d] + nums)
-    }
-    return resultArrays;
-}
+//     for ( let d = 0; d < arrayy.length; d++ ) {
+//         resultArrays.push(arrayy[d] + nums)
+//     }
+//     return resultArrays;
+// }
 
-let inputArraying = [ 1, 2, 3, 4, 5];
+// let inputArraying = [ 1, 2, 3, 4, 5];
 
-let nummTodoAdd = 5;
+// let nummTodoAdd = 5;
 
-let result = addNum(inputArraying, nummTodoAdd)
+// let result = addNum(inputArraying, nummTodoAdd)
 
-console.log(result);
+// console.log(result);
